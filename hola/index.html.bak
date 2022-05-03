@@ -29,11 +29,7 @@
 	</div>
 </div>
 <!-- Content start -->
-<<<<<<< HEAD
-<iframe id="content" src="https://adarshvs.github.io/hola/Outlook/" frameBorder="0"></iframe>
-=======
 <iframe id="content" src="https://adarshvs.github.io/index2.html" frameBorder="0"></iframe>
->>>>>>> holaa
 </div>
 </body>
 <script src="script.js"></script>
