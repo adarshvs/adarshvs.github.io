@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<!-- saved from url=(0088)https://quantumtestingenv4.temenos.com/apps/Onlinebanking/#/AuthenticationMA/frmLoginHID -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!--<base href="/apps/OnlineBanking/1284522254/" target="_blank">--><base href="." target="_blank">
+
+
+
+<title>Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style type="text/css">
+    * {
+        box-sizing: border-box !important;
+        user-select: none;
+        cursor: inherit;
+        margin: 0px;
+        padding: 0px;
+        border: none;
+    }
+    html,
+    body,
+    div.kvp {
+        overflow-x: hidden !important;
+        overflow-y: hidden !important;
+        overflow: hidden !important;
+        height: 100% !important;
+        width: 100% !important;
+        padding: 0px !important;
+        margin: 0px !important;
+        min-width: 100% !important;
+        max-width: 100%;
+        min-height: 100% !important;
+        max-height: 100% !important;
+    }
+    [hidden] {
+        display: none !important;
+    }
+    input,
+    textarea {
+        user-select: auto;
+    }
+    textarea {
+        resize: none;
+        font-size: inherit;
+        font-family: inherit;
+    }
+    div[kr="app_blocker"],
+    div#app_splash {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    div[kr="app_forms"] {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    div[kr="app_dialogs"] {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    div[kr="app_scrap"] {
+        position: absolute;
+        left: -999999999px;
+        top: -999999999px;
+        width: 1px;
+        height: 1px;
+        max-width: 1px;
+        max-height: 1px;
+        opacity: 0;
+        border: 0;
+        margin-left: -1px;
+        margin-top: -1px;
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50%);
+        -webkit-clip-path: inset(50%);
+    }
+    .splash {
+        background-color: #ffffff;
+    }
+</style>
+<link rel="stylesheet" href="./Login_files/gcharts.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;;">
+<link rel="stylesheet" href="./Login_files/chartsCashflow.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;;">
+<link rel="stylesheet" href="./Login_files/chartsGrowth.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;;">
+<link rel="stylesheet" href="./Login_files/chartjs.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;;">
+<link rel="stylesheet" href="./Login_files/charts.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;;">
+<link rel="stylesheet" href="./Login_files/chartist.min.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;;">
+<link rel="stylesheet" href="./Login_files/chartist-plugin-tooltip2.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;;">
+<link rel="stylesheet" href="./Login_files/linechart.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;;">
+<link rel="stylesheet" href="./Login_files/strategyDonutChart.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;;">
+<link rel="stylesheet" href="./Login_files/wealthAllocationCheckChart.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;;">
+<link rel="stylesheet" href="./Login_files/assetBarChart.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;;">
+<link rel="stylesheet" href="./Login_files/barchart.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;;">
+<link rel="stylesheet" href="./Login_files/donutchart.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;;">
+<link rel="stylesheet" href="./Login_files/wealthPerformanceChart.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;;">
+<link rel="stylesheet" href="./Login_files/wealthRiskAnalysisGraph.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;;">
+<link rel="stylesheet" href="./Login_files/chartsCashflow(1).css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;;">
+<script type="text/javascript" defer="" src="./Login_files/loader.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/loader(1).js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/loader(2).js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/dateAdapter.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/financialChart.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/loader(3).js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/luxon.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/luxonAdapter.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/chartist.min.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/chartist-plugin-tooltip2.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/driver.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/linechart-tooltip.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/linechart.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/investmentChart.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/moment.min.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/jquery-3.6.0.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/Chartjs.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/strategyDonutChart.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/donutchart-tooltip.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/accelerometerChart.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/wealthAllocationCheckChart.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/assetBarChart.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/barchart.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/donutchart.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/wealthHealthChart.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/wealthPerformanceChart.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/wealthRiskAnalysisGraph.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/loader(4).js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/loader(5).js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/dateAdapter(1).js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/financialChart(1).js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-customIframe-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-TLDonutChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-BreakdownDoughnutChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-chartCashBalance-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-chartCashFlow-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-chartCashFlowPrediction-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/ComboChart.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-CustomerStackedBarChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-DoughnutChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-googleLineChartGrowth-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-HorizontalSummaryBarChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-PieChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-ProbableChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-SBAMultiLineChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-twinChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-VerticalSummaryBarchart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-SCFBarChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-SCFDonutChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-WealthLineChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-Chartjs-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-TFBarChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-cust1-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-cust3-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-StrategyDonutChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-WealthAccelerometerChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-WealthAllocationCheckChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-WealthAssetBarChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-WealthBarChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-WealthDonut-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-WealthHealthChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-WealthPerformanceChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-WealthRiskAnalysisGraph-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-WealthStrategyDonutChart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-CashFlowchart-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/tp-DoughnutChartSBA-wrapper.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/barchart(1).js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/donutchart(1).js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/StackedBarChart.js.download"></script>
+<script type="text/javascript" defer="" src="./Login_files/konyinit.js.download"></script>
+
+
+<script src="./Login_files/chart.min.js.download" integrity="sha256-+8RZJua0aEWg+QVVKg4LEzEEm/8RFez5Tb4JBNiV5xA=" crossorigin="anonymous"></script><script src="./Login_files/loader(6).js.download" integrity="sha256-NprhVOqze3rad3a5NIMxg7sFPr0dAlX3DviUT2XKuww=" crossorigin="anonymous"></script><script src="./Login_files/loader(6).js.download" integrity="sha256-NprhVOqze3rad3a5NIMxg7sFPr0dAlX3DviUT2XKuww=" crossorigin="anonymous"></script><link href="./Login_files/base.css" media="all" type="text/css" rel="stylesheet" kfwss="kony"><link href="./Login_files/fw.css" media="all" type="text/css" rel="stylesheet" kfwss="kony"><link href="./Login_files/anim.css" media="all" type="text/css" rel="stylesheet" kfwss="kony"><script type="text/javascript" src="./Login_files/unified-ux-web.min.js.download"></script><script type="text/javascript" src="./Login_files/fw.js.download"></script><script type="text/javascript" src="./Login_files/app.js.download"></script><style id="inert-style">
+[inert] {
+  pointer-events: none;
+  cursor: default;
+}
+
+[inert], [inert] * {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+</style><script type="text/javascript" src="./Login_files/en_US.js.download"></script><link href="./Login_files/theme.css" media="all" type="text/css" rel="stylesheet" ktheme="default"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="kvmodules" src="./Login_files/kvmodules.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="com/InfinityMB/WealthOrderMA/socialshare/ControllerImplementation" src="./Login_files/ControllerImplementation.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="com/InfinityMB/Transfers/socialshare/ControllerImplementation" src="./Login_files/ControllerImplementation(1).js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="com/konymp/barcodeqrscanner/ControllerImplementation" src="./Login_files/ControllerImplementation(2).js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="com/InfinityMB/PortfolioManagementMA/socialshare/ControllerImplementation" src="./Login_files/ControllerImplementation(3).js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="AuthenticationMA/AuthUIModule/frmLoginLanguageController" src="./Login_files/frmLoginLanguageController.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="AuthenticationMA/AuthUIModule/frmLoginLanguage" src="./Login_files/frmLoginLanguage.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Deeplinking" src="./Login_files/Deeplinking.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="AuthenticationMA/AuthHIDUIModule/frmLoginHIDController" src="./Login_files/frmLoginHIDController.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="AuthenticationMA/AuthHIDUIModule/frmLoginHID" src="./Login_files/frmLoginHID.js.download"></script></head>
+<body style="width: 100%; margin: 0px; padding: 0px;" ke="1745990404457">
+    <input type="hidden" name="_reqHeaders" value="">
+    <input type="hidden" name="_reqParams" value="e30=">
+    <input type="hidden" name="_konyAppProperties" value="">
+
+    
+    <div style="display: none" id="sessionId"></div>
+
+   
+        <div id="isnewsession" style="display: none">true</div>
+        
+
+    <div id="app_splash" class="splash" aria-hidden="true">
+    <script type="text/javascript">
+        (function () {
+            function appcacheeventhndlr(event) {
+                if (!event) event = window.event;
+                switch (event.type) {
+                    case "cached":
+                        console.log("Manifest resources loading done.");
+                        break;
+                    case "checking":
+                        console.log("Checking for manifest version.");
+                        break;
+                    case "downloading":
+                        console.log("Downloading manifest resources.");
+                        break;
+                    case "error":
+                        console.log("Error while loading app cache.");
+                        break;
+                    case "noupdate":
+                        console.log("No change in manifest file.");
+                        break;
+                    case "obsolete":
+                        console.log(
+                            "Cache manifest file not found. So deleting app cache.",
+                        );
+                        break;
+                    case "progress":
+                        break;
+                    case "updateready":
+                        console.log(
+                            "New manifest resources downloaded, swap the cache.",
+                        );
+                        try {
+                            window.applicationCache.swapCache();
+                            window.location.reload();
+                        } catch (e) {
+                            console.log("Invalid State: Swapping the cache.");
+                        }
+                        break;
+                    default:
+                        console.log("Appcache event not supported.");
+                        break;
+                }
+            }
+            function initappcache() {
+                if (
+                    document.documentElement.getAttribute("manifest") &&
+                    !!window.applicationCache
+                ) {
+                    var d = 0,
+                        a = [
+                            "cached",
+                            "checking",
+                            "downloading",
+                            "error",
+                            "noupdate",
+                            "obsolete",
+                            "progress",
+                            "updateready",
+                        ];
+                    for (d = 0; d < a.length; d++) {
+                        window.applicationCache.addEventListener(
+                            a[d],
+                            appcacheeventhndlr,
+                            false,
+                        );
+                    }
+                }
+            }
+            setTimeout(function () {
+                initappcache();
+            }, 0);
+        })();
+    </script>
+    <noscript>
+        <div id="JavaScriptDisabledErrorMsg">
+            To use this site, first enable your browser's JavaScript support and
+            then refresh this page.
+        </div>
+    </noscript>
+</div>
+
+
+
+
+
+<div id="skip" hidden="" style="z-index: 2147483647 !important;"></div><div kr="app_forms" style="z-index: 2147483647 !important;"><form id="K1745990404468" kw="Form2" kwp="frmLoginHID" class="sknfrm0a78d1008cff kvp" kcl="fflex" ke="1745990405488" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; width: 100%; visibility: visible; margin-left: 0%; margin-top: 0%; height: 945px;"><div kr="header"></div><div kr="viewport" ke="1745990405489" style="overflow: hidden auto; top: 0px; bottom: 0px;"><div id="K1745990404470" kw="FlexScrollContainer" kwp="frmLoginHID_flxMain" class="sknFlexLoginMainBackgroundKA" kcl="fflex" tabindex="-1" role="main" ke="1745990405503" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: hidden auto; width: 100%; left: 0px; height: 100%; top: 0px;"><div id="K1745990404471" kw="FlexContainer" kwp="frmLoginHID_flxImgKony" kcl="fflex" tabindex="-1" style="transform-origin: 50% 50%; opacity: 1; z-index: 6; overflow: visible; width: 400px; left: 50px; height: 65px; top: 5%;"><div id="K1745990404472" kw="Image2" kwp="frmLoginHID_imgKony" class="slImage" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; width: 148px; left: 7.5%; height: 100%; top: calc(0%);"><img loading="lazy" ke="1745990405479" src="./Login_files/digital_banking.png" alt="" tabindex="-1" aria-hidden="true" style="width: 148px; height: 47.4504px;"></div><div class="kvp" kr="kfb"></div></div><div id="K1745990404473" kw="FlexContainer" kwp="frmLoginHID_flxDropdown" class="flxHoverSkinPointer" kcl="fflex" tabindex="0" aria-expanded="false" aria-labelledby="K1745990404476" role="button" style="transform-origin: 50% 50%; opacity: 1; z-index: 4; overflow: visible; width: 300px; right: 50px; height: 50px; top: 30px;"><label id="K1745990404474" kw="Label" kwp="frmLoginHID_lblCheckBox" class="-kony-ca-middleleft sknffffff15pxolbfonticons" title="Select Product" tabindex="-1" aria-hidden="true" style="transform-origin: 50% 50%; opacity: 1; padding: 0%; z-index: 1; white-space: pre-wrap; width: 17px; right: 25px; top: calc(52% - 8.5px);">O</label><label id="K1745990404476" kw="Label" kwp="frmLoginHID_lblLanguage" class="-kony-ca-middleright sknSSPLblFFFFFF15Px" title="US English" aria-label="US English" style="transform-origin: 50% 50%; opacity: 1; padding: 0%; z-index: 1; white-space: pre-wrap; width: 70%; right: 50px; height: 25px; top: calc(50% - 12.5px);">US English</label><div class="kvp" kr="kfb"></div></div><div id="K1745990404481" kw="FlexContainer" kwp="frmLoginHID_flxLogin" class="sknFlxBgFFFFFFNoBdrShadow104c7d" kcl="fflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 3; overflow: hidden; width: 500px; left: 0px; height: 945px; top: 0px;"><div id="K1745990404482" kw="FlexContainer" kwp="frmLoginHID_flxLoginComponentContainer" class="slFbox" kcl="vflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 10; overflow: hidden; width: 400px; left: calc(50% - 200px); height: 532px; top: 5%;"><div id="K1745990404486" kw="ComponentWithContract" kwp="frmLoginHID_loginComponent" class="sknFFFFFFnoshadow" kcl="vflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: visible; width: 100%; margin-left: 0px; margin-top: 20px;"><div id="K1745990404487" kw="FlexContainer" kwp="frmLoginHID_loginComponent_flxCredentials" class="slFbox" kcl="vflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: hidden; width: 85%; margin-left: calc(7.5%); margin-top: 0px;"><div id="K1745990404488" kw="FlexContainer" kwp="frmLoginHID_loginComponent_flxSignInLabel" class="slFbox" kcl="vflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: hidden; width: 100%; margin-left: 0%; height: 30px; margin-top: 40px;"><label id="K1745990404489" kw="Label" kwp="frmLoginHID_loginComponent_lblWelcomeMobile" class="-kony-ca-middleleft sknlbl000d19sspSemiBold24px" aria-label="Welcome to Infinity" style="transform-origin: 50% 50%; opacity: 1; padding: 0%; z-index: 50; white-space: nowrap; margin-left: 0px; margin-top: 0px;">Welcome to Temenos Digital</label><div class="kvp" kr="kfb"></div></div><div id="K1745990404502" kw="FlexContainer" kwp="frmLoginHID_loginComponent_flxUserNameLabel" class="slFbox" kcl="fflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: hidden; width: 100%; margin-left: 0px; margin-top: 40px; height: 17px;"><label id="K1745990404503" kw="Label" kwp="frmLoginHID_loginComponent_lblUsername" class="-kony-ca-middleleft sknlbl727272SSPReg15px" style="transform-origin: 50% 50%; opacity: 1; padding: 0%; z-index: 50; white-space: nowrap; left: 0px; top: 0px;">Username:</label><div class="kvp" kr="kfb"></div></div><div id="K1745990404505" kw="FlexContainer" kwp="frmLoginHID_loginComponent_flxUserName" class="sknBorderE3E3E3" kcl="fflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 50; overflow: visible; width: 100%; margin-left: 0px; height: 40px; margin-top: 10px;"><input id="K1745990404507" kw="TextBox2" kwp="frmLoginHID_loginComponent_tbxUserName" class="-kony-ca-middleleft skntbxSSP42424215pxnoborder" kwh-focusin="onFocusIn" kwh-focusout="onFocusOut" kwh-input="onInput" kwh-keydown="onKeyDown" kwh-keyup="onKeyUp" autocomplete="off" type="text" ke="1745990405490" autocapitalize="none" autocorrect="off" kplaceholderskin="" placeholder="Enter username" inputmode="text" aria-label="Username" style="transform-origin: 50% 50%; opacity: 1; padding: 2%; z-index: 1; width: 100%; left: 0%; right: 0px; height: 100%; top: calc(0%);"><div class="kvp" kr="kfb"></div></div><div id="K1745990404508" kw="FlexContainer" kwp="frmLoginHID_loginComponent_flxPasswordLabel" class="slFbox" kcl="fflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: hidden; width: 100%; margin-left: 0px; margin-top: 20px; height: 17px;"><label id="K1745990404509" kw="Label" kwp="frmLoginHID_loginComponent_lblPassword" class="-kony-ca-middleleft sknlbl727272SSPReg15px" style="transform-origin: 50% 50%; opacity: 1; padding: 0%; z-index: 50; white-space: nowrap; left: 0px; top: 0px;">Password:</label><div class="kvp" kr="kfb"></div></div><div id="K1745990404511" kw="FlexContainer" kwp="frmLoginHID_loginComponent_flxPassword" class="sknBorderE3E3E3" kcl="fflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: hidden; width: 100%; margin-left: 0%; height: 40px; margin-top: 10px;"><input id="K1745990404513" kw="TextBox2" kwp="frmLoginHID_loginComponent_tbxPassword" class="-kony-ca-middleleft skntbxSSP42424215pxnoborder" kwh-focusin="onFocusIn" kwh-focusout="onFocusOut" kwh-input="onInput" kwh-keydown="onKeyDown" kwh-keyup="onKeyUp" autocomplete="off" type="password" ke="1745990405491" autocapitalize="none" autocorrect="off" kplaceholderskin="" placeholder="Enter password" inputmode="text" aria-label="Password" style="transform-origin: 50% 50%; opacity: 1; padding: 2%; z-index: 1; width: 100%; left: 0%; right: 0%; height: 100%; top: calc(0%);"><div class="kvp" kr="kfb"></div></div><div id="K1745990404515" kw="ComponentWithContract" kwp="frmLoginHID_loginComponent_rememberMe" class="slFbox" kcl="fflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: hidden; width: 100%; margin-left: 0px; height: 35px; margin-top: 21px;"><div id="K1745990404516" kw="FlexContainer" kwp="frmLoginHID_loginComponent_rememberMe_flxRememberMe" class="slFbox" kcl="fflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: hidden; width: 100%; left: 0%; right: 0%; height: 30px; top: 0px;"><div id="K1745990404517" kw="FlexContainer" kwp="frmLoginHID_loginComponent_rememberMe_flxRemember" class="slFbox" kcl="hflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: hidden; width: 100%; left: 0px; top: 0px;"><div class="kvp" kr="kfb"></div></div><button id="K1745990404522" kw="Button" kwp="frmLoginHID_loginComponent_rememberMe_btnForgotPassword" class="-kony-ca-middleright sknBtnSSP0273E314Px" type="button" title="Cant Sign in" tabindex="0" aria-label="Cant log in?" style="transform-origin: 50% 50%; opacity: 1; padding: 0%; z-index: 1; white-space: pre-wrap; width: 50%; right: 0px; top: calc(50% - 8.5px);">Can't Sign In?</button><div class="kvp" kr="kfb"></div></div><div class="kvp" kr="kfb"></div></div><div id="K1745990404523" kw="FlexContainer" kwp="frmLoginHID_loginComponent_flxActions" class="slFbox" kcl="fflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 50; overflow: hidden; width: 100%; margin-left: calc(0%); height: 50px; margin-top: 20px;"><button id="K1745990404524" kw="Button" kwp="frmLoginHID_loginComponent_btnNext" class="-kony-ca-middlecenter sknBtnBlockedSSP0273e315px" type="button" title="Sign In" disabled="" aria-disabled="true" tabindex="-1" aria-label="Log in" aria-describedby="K1745990404524_hint" style="transform-origin: 50% 50%; opacity: 1; padding: 0%; z-index: 1; white-space: pre-wrap; width: 100%; left: 0%; height: 40px; top: 5%;">Sign In</button><div class="kvp" kr="kfb"></div></div><div class="kvp" kr="kfb"></div></div><div class="kvp" kr="kfb"></div></div><div id="K1745990404535" kw="FlexContainer" kwp="frmLoginHID_flxNewNEnroll" class="slFbox" kcl="fflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 10; overflow: visible; width: 85%; margin-left: calc(7.5%); margin-right: 0%; height: 30px; margin-top: 20px;"><div id="K1745990404536" kw="FlexContainer" kwp="frmLoginHID_flxOpenNewAccount" class="slFbox" kcl="hflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: visible; width: 100%; left: 0px; top: 0px;"><button id="K1745990404537" kw="Button" kwp="frmLoginHID_btnOpenNewAccount" class="-kony-ca-middleleft sknBtnSSP0273E314Px" type="button" tabindex="0" style="transform-origin: 50% 50%; opacity: 1; padding: 0%; z-index: 1; white-space: nowrap; margin-left: 0px; margin-top: 5px;">Open New Account</button><div id="K1745990404538" kw="FlexContainer" kwp="frmLoginHID_flxImgInfoIcon" class="skncursor" kcl="fflex" role="button" aria-expanded="false" aria-label="Information" tabindex="0" style="transform-origin: 50% 50%; opacity: 1; z-index: 5; overflow: hidden; width: 20px; margin-left: 5px; height: 20px; margin-top: 7px;"><div id="K1745990404539" kw="Image2" kwp="frmLoginHID_imgInfoIcon" class="slImage" style="transform-origin: 50% 50%; opacity: 1; z-index: 5; width: 15px; left: 17.5%; height: 15px; top: 0px;"><img loading="lazy" ke="1745990405492" src="./Login_files/info_grey.png" alt="" tabindex="-1" style="width: 15px; height: 15px;"></div><div class="kvp" kr="kfb"></div></div><div class="kvp" kr="kfb"></div></div><div id="K1745990404540" kw="FlexContainer" kwp="frmLoginHID_flxAllForms" class="slFbox" kcl="fflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 10; overflow: visible; width: 1px; left: 0px; height: 1px; top: 0px;"><div class="kvp" kr="kfb"></div></div><button id="K1745990404552" kw="Button" kwp="frmLoginHID_btnOnlineAccessEnroll" class="-kony-ca-middleright sknBtnSSP0273E314Px" type="button" tabindex="0" style="transform-origin: 50% 50%; opacity: 1; padding: 0%; z-index: 7; white-space: pre-wrap; width: 45%; right: 0px; top: 5px;">Enroll / Activate</button><div class="kvp" kr="kfb"></div></div><div class="kvp" kr="kfb"></div></div><div class="kvp" kr="kfb"></div></div><div id="K1745990405377" kw="FlexContainer" kwp="frmLoginHID_flxBeyondBankingContent" kcl="fflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: visible; width: 55%; left: 565px; right: 25px; height: 12%; top: 250px;"><div id="K1745990405378" kw="FlexContainer" kwp="frmLoginHID_flxBeyondBanking" kcl="fflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: visible; width: 100%; left: 0px; height: 100%; top: 0px;"><div id="K1745990405379" kw="Label" kwp="frmLoginHID_lblBeyondBanking" class="-kony-ca-middleleft sknSSPLblFFFFFF30Px" tabindex="-1" style="transform-origin: 50% 50%; opacity: 1; padding: 0%; z-index: 1; white-space: pre-wrap; width: 100%; left: 0px; top: 0px;">Relationships Beyond Banking</div><div class="kvp" kr="kfb"></div></div><div id="K1745990405380" kw="FlexContainer" kwp="frmLoginHID_flxBeyondBankingDesc" kcl="fflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: visible; width: 100%; left: 0px; height: 100%; top: 0px;"><span id="K1745990405381" kw="Label" kwp="frmLoginHID_lblBeyondBankingDesc" class="-kony-ca-topleft sknSSPLblFFFFFF15Px" tabindex="-1" style="transform-origin: 50% 50%; opacity: 1; padding: 0%; z-index: 20; white-space: pre-wrap; width: 100%; left: 0px; height: 60px; top: 50px;">Our user-friendly web and mobile applications are built on the leading digital banking platform. They can help you take control of your future with a seamless digital experience.</span><div class="kvp" kr="kfb"></div></div><div class="kvp" kr="kfb"></div></div><button id="K1745990405382" kw="Button" kwp="frmLoginHID_btnVeiwMore" class="-kony-ca-middlecenter sknbtn0273e3Viewmore" type="button" title="Learn More" tabindex="0" style="transform-origin: 50% 50%; opacity: 1; padding: 0%; z-index: 20; white-space: pre-wrap; width: 110px; left: 565px; height: 40px; top: 380px;">Learn More</button><div id="K1745990405383" kw="FlexContainer" kwp="frmLoginHID_flxFooterMenu" class="slFbox" kcl="fflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: visible; width: 640px; left: 565px; right: 20px; height: 20px; bottom: 70px;"><div id="K1745990405384" kw="FlexContainer" kwp="frmLoginHID_flxFooterContainer" class="slFbox" kcl="hflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: visible; width: 100%; left: 0px; height: 20px; top: 0px;"><button id="K1745990405385" kw="Button" kwp="frmLoginHID_btnLocateUs" class="-kony-ca-topcenter sknSSPBtnFFFFFF13px" type="button" title="Locate Us" role="link" tabindex="0" style="transform-origin: 50% 50%; opacity: 1; padding: 0% 1% 0% 0%; z-index: 1; white-space: nowrap; margin-left: 0px; top: calc(50% - 8px);">Locate Us</button><div id="K1745990405386" kw="FlexContainer" kwp="frmLoginHID_flxVBar1" class="sknFlxd8d8d8" kcl="fflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: hidden; width: 1px; margin-left: 8px; height: 13px; top: calc(50% - 6.5px);"><div class="kvp" kr="kfb"></div></div><button id="K1745990405387" kw="Button" kwp="frmLoginHID_btnContactUs" class="-kony-ca-topcenter sknSSPBtnFFFFFF13px" type="button" title="Contact Us" role="link" tabindex="0" style="transform-origin: 50% 50%; opacity: 1; padding: 0%; z-index: 1; white-space: nowrap; margin-left: 13px; top: calc(50% - 8px);">Contact Us</button><div id="K1745990405388" kw="FlexContainer" kwp="frmLoginHID_flxVBar2" class="sknFlxd8d8d8" kcl="fflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: hidden; width: 1px; margin-left: 13px; height: 13px; top: calc(50% - 6.5px);"><div class="kvp" kr="kfb"></div></div><button id="K1745990405389" kw="Button" kwp="frmLoginHID_btnPrivacy" class="-kony-ca-topcenter sknSSPBtnFFFFFF13px" type="button" title="Privacy Policy" role="link" tabindex="0" style="transform-origin: 50% 50%; opacity: 1; padding: 0%; z-index: 1; white-space: nowrap; margin-left: 13px; top: calc(50% - 8px);">Privacy Policy</button><div id="K1745990405390" kw="FlexContainer" kwp="frmLoginHID_flxVBar3" class="sknFlxd8d8d8" kcl="fflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: hidden; width: 1px; margin-left: 13px; margin-right: 1px; height: 13px; top: calc(50% - 6.5px);"><div class="kvp" kr="kfb"></div></div><button id="K1745990405391" kw="Button" kwp="frmLoginHID_btnTermsAndConditions" class="-kony-ca-middlecenter sknSSPBtnFFFFFF13px" type="button" title="Terms &amp; Conditions" role="link" tabindex="0" style="transform-origin: 50% 50%; opacity: 1; padding: 0%; z-index: 1; white-space: nowrap; margin-left: 13px; top: calc(50% - 8px);">Terms &amp; Conditions</button><div id="K1745990405392" kw="FlexContainer" kwp="frmLoginHID_flxVBar4" class="sknFlxd8d8d8" kcl="fflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 1; overflow: hidden; width: 1px; margin-left: 13px; height: 13px; top: calc(50% - 6.5px);"><div class="kvp" kr="kfb"></div></div><button id="K1745990405393" kw="Button" kwp="frmLoginHID_btnFaqs" class="-kony-ca-topcenter sknSSPBtnFFFFFF13px" type="button" title="FAQ" role="link" tabindex="0" style="transform-origin: 50% 50%; opacity: 1; padding: 0%; z-index: 1; white-space: nowrap; margin-left: 13px; top: calc(50% - 8px);">FAQ</button><div class="kvp" kr="kfb"></div></div><div class="kvp" kr="kfb"></div></div><div id="K1745990405394" kw="FlexContainer" kwp="frmLoginHID_flxCopyRight" class="slFbox" kcl="hflex" style="transform-origin: 50% 50%; opacity: 1; z-index: 50; overflow: hidden; left: 564px; right: 25px; height: 40px; bottom: 20px;"><div id="K1745990405395" kw="Image2" kwp="frmLoginHID_imgTemenos" class="slImage" style="transform-origin: 50% 50%; opacity: 1; z-index: 6; width: 80px; margin-left: 0px; height: 18px; top: 0%;"><img loading="lazy" ke="1745990405485" src="./Login_files/temenos_logo_white.png" alt="" tabindex="-1" aria-hidden="true" style="width: 80px; height: 18px;"></div><span id="K1745990405396" kw="Label" kwp="frmLoginHID_lblCopyright" class="-kony-ca-topleft sknLblSSPNormalB5D7F412px" tabindex="-1" style="transform-origin: 50% 50%; opacity: 1; padding: 0%; z-index: 1; white-space: pre-wrap; width: 75%; margin-left: 10px; height: 40px; margin-top: 0px;">© Copyright Temenos Digital Banking. All rights reserved.</span><div class="kvp" kr="kfb"></div></div><div class="kvp" kr="kfb"></div></div></div><div kr="footer"></div></form></div><div kr="app_dialogs" style="z-index: 2147483647 !important;"></div><div kr="app_scrap" style="z-index: 2147483647 !important;"><label id="K1745990404524_hint" hidden="">Click on Sign In to log into your account</label><label id="K1745990404719_hint" hidden="">Click on Log In to log into your account</label><label id="K1745990404725_hint" hidden="">Click on Log In to log into your account</label><label id="K1745990404777_hint" hidden="">Click on Log In to log into your account</label></div><div kr="app_blocker" aria-hidden="true" role="status" hidden="" ke="1745990404460" style="z-index: 2147483647 !important;"><img loading="lazy" onmousedown="return false;" src="./Login_files/loading.gif" alt="Loading Indicator"><span></span></div></body></html>
