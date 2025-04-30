@@ -1,0 +1,6 @@
+var head = document.getElementsByTagName('head')[0];
+var script = document.createElement('script');
+script.src = "https://www.gstatic.com/charts/loader.js";
+script.integrity = "sha256-NprhVOqze3rad3a5NIMxg7sFPr0dAlX3DviUT2XKuww=";
+script.crossOrigin = "anonymous";
+head.appendChild(script);

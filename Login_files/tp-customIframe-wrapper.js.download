@@ -1,0 +1,1 @@
+var customIframe={initializeWidget:function(i,e,n){i.innerHTML='<iframe id="embed_origination" src=" '+e.webURL+'" height="100%" width="100%" title="Origination"></iframe>'},modelChange:function(i,e,n){}};

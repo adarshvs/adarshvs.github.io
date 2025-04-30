@@ -1,0 +1,6 @@
+var head = document.getElementsByTagName('head')[0];
+var script = document.createElement('script');
+script.src = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js";
+script.integrity = "sha256-+8RZJua0aEWg+QVVKg4LEzEEm/8RFez5Tb4JBNiV5xA=";
+script.crossOrigin = "anonymous";
+head.appendChild(script);
