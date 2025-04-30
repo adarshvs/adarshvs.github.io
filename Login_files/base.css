@@ -1,0 +1,494 @@
+/* FilePath: jslib/tparty/uux/base.css */
+/* Version: 25.0.0 */
+/* TimeStamp: Thu, 13 Feb 2025 14:27:54 GMT */
+/**
+  Palette
+ */
+/**
+ * Version: 2023.0.0-SNAPSHOT
+ * GIT_COMMIT_ID: 16d7b6855559fa247f5575013389c1e8151af2f3
+ */
+/* vietnamese */
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/worksans/v18/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32KxfXBiAJpp_c.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/worksans/v18/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32KxfXBiEJpp_c.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/worksans/v18/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32KxfXBi8Jpg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/worksans/v18/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXBiAJpp_c.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/worksans/v18/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXBiEJpp_c.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/worksans/v18/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXBi8Jpg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/worksans/v18/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K3vXBiAJpp_c.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/worksans/v18/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K3vXBiEJpp_c.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/worksans/v18/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K3vXBi8Jpg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* fallback */
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://fonts.gstatic.com/s/materialicons/v67/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format("woff2");
+}
+/* fallback */
+@font-face {
+  font-family: "Material Icons Outlined";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://fonts.gstatic.com/s/materialiconsoutlined/v90/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.woff2) format("woff2");
+}
+/* Theme variables */
+:root {
+  --uwc-temenos-darkest: #2C3361;
+  --uwc-temenos-dark: #293276;
+  --uwc-temenos-primary: #4A5798;
+  --uwc-temenos-light: #C9D9F2;
+  --uwc-temenos-lightest: #EBF3FF;
+  --uwc-grey-darkest: #000;
+  --uwc-grey-dark: #3b3b3b;
+  --uwc-grey-primary: #757575;
+  --uwc-grey-light: #e5e5e5;
+  --uwc-grey-lightest: #f2f2f2;
+  --uwc-status-success-darkest: #494911;
+  --uwc-status-success-dark: #5B5B15;
+  --uwc-status-success-primary: #707016;
+  --uwc-status-success-light: #DDDD93;
+  --uwc-status-success-lightest: #F3F3D8;
+  --uwc-status-warn-darkest: #523000;
+  --uwc-status-warn-dark: #995C00;
+  --uwc-status-warn-primary: #CC7E0B;
+  --uwc-status-warn-light: #FFEACC;
+  --uwc-status-warn-lightest: #FFF9F2;
+  --uwc-status-error-darkest: #541212;
+  --uwc-status-error-dark: #932020;
+  --uwc-status-error-primary: #d22d2d;
+  --uwc-status-error-light: #f6d5d5;
+  --uwc-status-error-lightest: #fcf4f4;
+  --uwc-status-neutral-darkest: #2C3361;
+  --uwc-status-neutral-dark: #293276;
+  --uwc-status-neutral-primary: #4A5798;
+  --uwc-status-neutral-light: #C9D9F2;
+  --uwc-status-neutral-lightest: #EBF3FF;
+  --uwc-font-family: Work Sans, sans-serif;
+  --uwc-font-size: 16px;
+  --uwc-breakpoint-xs: 0;
+  --uwc-breakpoint-sm: 600px;
+  --uwc-breakpoint-md: 960px;
+  --uwc-breakpoint-lg: 1280px;
+  --uwc-breakpoint-xl: 1920px;
+  --uwc-field-gutter-padding: 0 1.25rem 0.625rem 0;
+  --uwc-spacing-margin-bottom: 1.25rem;
+  --uwc-icon-font: Material Icons Outlined;
+  --uwc-z-index-overlay: 1000;
+  font-family: var(--uwc-font-family);
+  font-size: var(--uwc-font-size);
+  --mdc-icon-font: var(--uwc-icon-font, Material Icons Outlined);
+}
+
+:root {
+  --uwc-legacy-helper-text: y;
+  --uwc-scrollbar-color: var(--uwc-temenos-darkest);
+  --sl-color-black: #000;
+  --sl-color-gray-900: #111827;
+  --sl-color-white: #fff;
+  --sl-font-mono: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  --sl-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --sl-font-serif: Georgia, "Times New Roman", serif;
+  --sl-font-size-xx-small: 0.625rem;
+  --sl-font-size-x-small: 0.75rem;
+  --sl-font-size-small: 0.875rem;
+  --sl-font-size-medium: 1rem;
+  --sl-font-size-large: 1.25rem;
+  --sl-font-size-x-large: 1.5rem;
+  --sl-font-size-xx-large: 2.25rem;
+  --sl-font-size-xxx-large: 3rem;
+  --sl-font-size-xxxx-large: 4.5rem;
+  --sl-tooltip-background-color: var(--sl-color-gray-900);
+  --sl-tooltip-color: var(--sl-color-white);
+  --sl-border-radius-medium: 0.25rem;
+  --sl-spacing-xxx-small: 0.125rem;
+  --sl-spacing-xx-small: 0.25rem;
+  --sl-spacing-x-small: 0.5rem;
+  --sl-spacing-small: 0.75rem;
+  --sl-spacing-medium: 1rem;
+  --sl-spacing-large: 1.25rem;
+  --sl-spacing-x-large: 1.75rem;
+  --sl-spacing-xx-large: 2.25rem;
+  --sl-spacing-xxx-large: 3rem;
+  --sl-spacing-xxxx-large: 4.5rem;
+  --sl-line-height-dense: 1.4;
+  --sl-line-height-normal: 1.8;
+  --sl-line-height-loose: 2.2;
+  --sl-tooltip-border-radius: var(--sl-border-radius-medium);
+  --sl-tooltip-font-family: var(--sl-font-sans);
+  --sl-tooltip-font-weight: var(--sl-font-weight-normal);
+  --sl-tooltip-font-size: var(--sl-font-size-small);
+  --sl-tooltip-line-height: var(--sl-line-height-medium);
+  --sl-tooltip-padding: var(--sl-spacing-xx-small) var(--sl-spacing-x-small);
+  --sl-tooltip-arrow-size: 5px;
+  --sl-tooltip-arrow-start-end-offset: 8px;
+  --sl-z-index-tooltip: 1000;
+}
+
+html.uux-dark {
+  --uwc-temenos-lightest: #121212;
+  --uwc-temenos-light: #66660A;
+  --uwc-temenos-primary: #c7c703;
+  --uwc-temenos-dark: #E4E4C9;
+  --uwc-temenos-darkest: #fff;
+  --uwc-rgba-in: var(--uwc-temenos-primary);
+  --uwc-status-error-lightest: #560000;
+  --uwc-status-error-light: #990000;
+  --uwc-status-error-primary: #ff918f;
+  --uwc-status-error-dark: #ffcdcc;
+  --uwc-status-error-darkest: #FCF4F4;
+  --uwc-status-warn-lightest: #523000;
+  --uwc-status-warn-light: #995C00 ;
+  --uwc-status-warn-primary: #CC7E0B ;
+  --uwc-status-warn-dark: #FFEACC;
+  --uwc-status-warn-darkest: #FFF9F2;
+  --uwc-status-success-lightest: #494911;
+  --uwc-status-success-light: #5B5B15;
+  --uwc-status-success-primary: #a3da92;
+  --uwc-status-success-dark: #efefce;
+  --uwc-status-success-darkest: #F3F3D8;
+  --uwc-red-lightest: var(--uwc-status-error-lightest);
+  --uwc-red-light: var(--uwc-status-error-light);
+  --uwc-grey-darkest: var(--uwc-temenos-primary);
+  --uwc-grey-dark: var(--uwc-temenos-dark);
+  --uwc-grey-primary: var(--uwc-text-color);
+  --uwc-grey-light: var(--uwc-temenos-light);
+  --uwc-grey-lightest: #444;
+  --uwc-text-color: #c8c8c8;
+  --uwc-disabled: #999;
+  --uwc-scrollbar-color: var(--uwc-temenos-primary, #c7c703);
+  --uwc-error-summary-bg: var(--uwc-temenos-lightest);
+  --uwc-error-summary-bg-hover: var(--uwc-grey-lightest);
+  --uwc-navigation-rail-background-color: var(--uwc-temenos-lightest);
+  --uwc-navigation-rail-button-color-focus: var(--uwc-temenos-light);
+  --uwc-navigation-rail-button-border-color-hover: var(--uwc-temenos-light);
+  --uwc-navigation-rail-button-border-color-focus: var(--uwc-temenos-light);
+  --uwc-card-background-color: var(--uwc-temenos-lightest);
+  --uwc-card-border-color: var(--uwc-temenos-primary);
+  --uwc-card-heading-text-color: var(--uwc-temenos-primary);
+  --mdc-theme-surface: var(--uwc-temenos-lightest);
+  --uwc-datepicker-bg-color: var(--uwc-temenos-lightest);
+  --uwc-date-calendar-header-background-color: var(--uwc-temenos-light);
+  --uwc-datepicker-weekday-color: var(--uwc-temenos-light);
+  --uwc-datepicker-focused-day-color: var(--uwc-temenos-lightest);
+  --uwc-datepicker-color: var(--uwc-temenos-dark);
+  --uwc-datepicker-disabled-day-color: var(--uwc-disabled);
+  --uwc-flex-table-header-cell-text-color: var(--uwc-temenos-primary);
+  --uwc-flex-table-cell-textcolor: var(--uwc-temenos-primary);
+  --uwc-flex-table-bg-color: var(--uwc-temenos-lightest);
+  --uwc-flex-table-background-color: var(--uwc-temenos-lightest);
+  --uwc-flex-table-cell-textcolor: var(--uwc-temenos-primary);
+  --uwc-flex-tbody-shadow: 0 0 0px 1px var(--uwc-temenos-primary);
+  --uwc-flex-table-grid-lines-color: var(--uwc-temenos-primary);
+  --uwc-button-border-radius: 0;
+  --uwc-card-menubutton-border-radius: 0;
+  --uwc-button-outlined-background-color: var(--uwc-grey-lightest);
+  --uwc-button-outlined-bg-color: var(--uwc-grey-lightest);
+  --uwc-on-primary: var(--uwc-temenos-lightest);
+  --mdc-checkbox-unchecked-color: var(--uwc-temenos-primary);
+  --mdc-checkbox-ink-color: var(--uwc-temenos-light);
+  --uwc-text-field-fill-hover-error-color: var(--uwc-temenos-lightest);
+  --uwc-text-field-bg-color: var(--uwc-temenos-lightest);
+  --uwc-text-field-bg-color-hover: var(--uwc-temenos-light);
+  --uwc-text-field-ink-color: var(--uwc-temenos-primary);
+  --uwc-text-field-ink-focus-color: var(--uwc-temenos-primary);
+  --uwc-text-field-label-ink-color: var(--uwc-temenos-primary);
+  --uwc-text-field-fill-color: var(--uwc-temenos-lightest);
+  --uwc-text-field-fill-hover-color: var(--uwc-temenos-lightest);
+  --mdc-text-field-label-ink-color: var(--uwc-temenos-primary);
+  --mdc-text-field-ink-color: var(--uwc-temenos-primary);
+  --uwc-combo-option-hover: var(--uwc-grey-lightest);
+  --uwc-combo-option-selected: var(--uwc-temenos-lightest);
+  --uwc-combo-option-selected-hover: var(--uwc-grey-lightest);
+  --uwc-select-ink-color: var(--uwc-temenos-primary);
+  --uwc-select-ink-focus-color: var(--uwc-temenos-primary);
+  --uwc-select-label-ink-color: var(--uwc-temenos-primary);
+  --uwc-select-fill-focus-color: var(--uwc-temenos-lightest);
+  --uwc-readonly-label-color: var(--uwc-temenos-primary);
+  --uwc-readonly-label-bg-color: var(--uwc-temenos-lightest);
+  --uwc-form-field-label-ink-color: var(--uwc-temenos-dark);
+  --search-bar-bg: var(--uwc-temenos-lightest);
+  --uwc-chip-background-color: var(--uwc-temenos-lightest);
+  --uwc-badge-text-color: var(--uwc-temenos-lightest);
+  --uwc-expansion-panel-background-color: var(--uwc-temenos-lightest);
+  --uwc-chart-bg: var(--uwc-temenos-lightest);
+  --uwc-chart-fg: var(--uwc-temenos-primary);
+  --uwc-icon-color: var(--uwc-temenos-primary);
+  --mdc-theme-text-secondary-on-background: var(--uwc-temenos-primary);
+  --uwc-readonly-label-bg-color: var(--uwc-temenos-lightest);
+  --uwc-palette-0: #CC7E0B;
+  --uwc-palette-2: #293375;
+}
+html.uux-dark body {
+  background: #000;
+  color: var(--uwc-text-color);
+}
+html.uux-dark uwc-button-toggle {
+  --uwc-chip-text-color-active: #fff;
+  --uwc-chip-text-color-focused: var(--uwc-temenos-lightest);
+  --uwc-temenos-lightest: var(--uwc-temenos-primary);
+}
+html.uux-dark uwc-notifications-panel {
+  --uwc-temenos-primary: var(--uwc-temenos-dark);
+}
+html.uux-dark uwc-icon-button {
+  --uwc-button-icon-color: var(--uwc-temenos-dark);
+}
+html.uux-dark uwc-tab uwc-icon-button {
+  --uwc-button-icon-color: var(--uwc-temenos-primary);
+}
+html.uux-dark uwc-navigation-rail {
+  --uwc-temenos-primary: var(--uwc-temenos-light);
+}
+html.uux-dark uwc-badge {
+  --uwc-badge-text-color: var(--uwc-temenos-lightest);
+}
+html.uux-dark uwc-badge[color=temenos-light] {
+  --uwc-badge-text-color: var(--uwc-temenos-darkest);
+}
+html.uux-dark uwc-dialog {
+  --uwc-dialog-shadow-rgb: 199, 199, 3;
+}
+html.uux-dark .container {
+  color: var(--uwc-temenos-primary);
+}
+html.uux-dark .table-header,
+html.uux-dark div.header {
+  background-color: var(--uwc-grey-lightest);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --uwc-temenos-lightest: #121212;
+    --uwc-temenos-light: #66660A;
+    --uwc-temenos-primary: #c7c703;
+    --uwc-temenos-dark: #E4E4C9;
+    --uwc-temenos-darkest: #fff;
+    --uwc-rgba-in: var(--uwc-temenos-primary);
+    --uwc-status-error-lightest: #560000;
+    --uwc-status-error-light: #990000;
+    --uwc-status-error-primary: #ff918f;
+    --uwc-status-error-dark: #ffcdcc;
+    --uwc-status-error-darkest: #FCF4F4;
+    --uwc-status-warn-lightest: #523000;
+    --uwc-status-warn-light: #995C00 ;
+    --uwc-status-warn-primary: #CC7E0B ;
+    --uwc-status-warn-dark: #FFEACC;
+    --uwc-status-warn-darkest: #FFF9F2;
+    --uwc-status-success-lightest: #494911;
+    --uwc-status-success-light: #5B5B15;
+    --uwc-status-success-primary: #a3da92;
+    --uwc-status-success-dark: #efefce;
+    --uwc-status-success-darkest: #F3F3D8;
+    --uwc-red-lightest: var(--uwc-status-error-lightest);
+    --uwc-red-light: var(--uwc-status-error-light);
+    --uwc-grey-darkest: var(--uwc-temenos-primary);
+    --uwc-grey-dark: var(--uwc-temenos-dark);
+    --uwc-grey-primary: var(--uwc-text-color);
+    --uwc-grey-light: var(--uwc-temenos-light);
+    --uwc-grey-lightest: #444;
+    --uwc-text-color: #c8c8c8;
+    --uwc-disabled: #999;
+    --uwc-scrollbar-color: var(--uwc-temenos-primary, #c7c703);
+    --uwc-error-summary-bg: var(--uwc-temenos-lightest);
+    --uwc-error-summary-bg-hover: var(--uwc-grey-lightest);
+    --uwc-navigation-rail-background-color: var(--uwc-temenos-lightest);
+    --uwc-navigation-rail-button-color-focus: var(--uwc-temenos-light);
+    --uwc-navigation-rail-button-border-color-hover: var(--uwc-temenos-light);
+    --uwc-navigation-rail-button-border-color-focus: var(--uwc-temenos-light);
+    --uwc-card-background-color: var(--uwc-temenos-lightest);
+    --uwc-card-border-color: var(--uwc-temenos-primary);
+    --uwc-card-heading-text-color: var(--uwc-temenos-primary);
+    --mdc-theme-surface: var(--uwc-temenos-lightest);
+    --uwc-datepicker-bg-color: var(--uwc-temenos-lightest);
+    --uwc-date-calendar-header-background-color: var(--uwc-temenos-light);
+    --uwc-datepicker-weekday-color: var(--uwc-temenos-light);
+    --uwc-datepicker-focused-day-color: var(--uwc-temenos-lightest);
+    --uwc-datepicker-color: var(--uwc-temenos-dark);
+    --uwc-datepicker-disabled-day-color: var(--uwc-disabled);
+    --uwc-flex-table-header-cell-text-color: var(--uwc-temenos-primary);
+    --uwc-flex-table-cell-textcolor: var(--uwc-temenos-primary);
+    --uwc-flex-table-bg-color: var(--uwc-temenos-lightest);
+    --uwc-flex-table-background-color: var(--uwc-temenos-lightest);
+    --uwc-flex-table-cell-textcolor: var(--uwc-temenos-primary);
+    --uwc-flex-tbody-shadow: 0 0 0px 1px var(--uwc-temenos-primary);
+    --uwc-flex-table-grid-lines-color: var(--uwc-temenos-primary);
+    --uwc-button-border-radius: 0;
+    --uwc-card-menubutton-border-radius: 0;
+    --uwc-button-outlined-background-color: var(--uwc-grey-lightest);
+    --uwc-button-outlined-bg-color: var(--uwc-grey-lightest);
+    --uwc-on-primary: var(--uwc-temenos-lightest);
+    --mdc-checkbox-unchecked-color: var(--uwc-temenos-primary);
+    --mdc-checkbox-ink-color: var(--uwc-temenos-light);
+    --uwc-text-field-fill-hover-error-color: var(--uwc-temenos-lightest);
+    --uwc-text-field-bg-color: var(--uwc-temenos-lightest);
+    --uwc-text-field-bg-color-hover: var(--uwc-temenos-light);
+    --uwc-text-field-ink-color: var(--uwc-temenos-primary);
+    --uwc-text-field-ink-focus-color: var(--uwc-temenos-primary);
+    --uwc-text-field-label-ink-color: var(--uwc-temenos-primary);
+    --uwc-text-field-fill-color: var(--uwc-temenos-lightest);
+    --uwc-text-field-fill-hover-color: var(--uwc-temenos-lightest);
+    --mdc-text-field-label-ink-color: var(--uwc-temenos-primary);
+    --mdc-text-field-ink-color: var(--uwc-temenos-primary);
+    --uwc-combo-option-hover: var(--uwc-grey-lightest);
+    --uwc-combo-option-selected: var(--uwc-temenos-lightest);
+    --uwc-combo-option-selected-hover: var(--uwc-grey-lightest);
+    --uwc-select-ink-color: var(--uwc-temenos-primary);
+    --uwc-select-ink-focus-color: var(--uwc-temenos-primary);
+    --uwc-select-label-ink-color: var(--uwc-temenos-primary);
+    --uwc-select-fill-focus-color: var(--uwc-temenos-lightest);
+    --uwc-readonly-label-color: var(--uwc-temenos-primary);
+    --uwc-readonly-label-bg-color: var(--uwc-temenos-lightest);
+    --uwc-form-field-label-ink-color: var(--uwc-temenos-dark);
+    --search-bar-bg: var(--uwc-temenos-lightest);
+    --uwc-chip-background-color: var(--uwc-temenos-lightest);
+    --uwc-badge-text-color: var(--uwc-temenos-lightest);
+    --uwc-expansion-panel-background-color: var(--uwc-temenos-lightest);
+    --uwc-chart-bg: var(--uwc-temenos-lightest);
+    --uwc-chart-fg: var(--uwc-temenos-primary);
+    --uwc-icon-color: var(--uwc-temenos-primary);
+    --mdc-theme-text-secondary-on-background: var(--uwc-temenos-primary);
+    --uwc-readonly-label-bg-color: var(--uwc-temenos-lightest);
+    --uwc-palette-0: #CC7E0B;
+    --uwc-palette-2: #293375;
+  }
+  :root body {
+    background: #000;
+    color: var(--uwc-text-color);
+  }
+  :root uwc-button-toggle {
+    --uwc-chip-text-color-active: #fff;
+    --uwc-chip-text-color-focused: var(--uwc-temenos-lightest);
+    --uwc-temenos-lightest: var(--uwc-temenos-primary);
+  }
+  :root uwc-notifications-panel {
+    --uwc-temenos-primary: var(--uwc-temenos-dark);
+  }
+  :root uwc-icon-button {
+    --uwc-button-icon-color: var(--uwc-temenos-dark);
+  }
+  :root uwc-tab uwc-icon-button {
+    --uwc-button-icon-color: var(--uwc-temenos-primary);
+  }
+  :root uwc-navigation-rail {
+    --uwc-temenos-primary: var(--uwc-temenos-light);
+  }
+  :root uwc-badge {
+    --uwc-badge-text-color: var(--uwc-temenos-lightest);
+  }
+  :root uwc-badge[color=temenos-light] {
+    --uwc-badge-text-color: var(--uwc-temenos-darkest);
+  }
+  :root uwc-dialog {
+    --uwc-dialog-shadow-rgb: 199, 199, 3;
+  }
+  :root .container {
+    color: var(--uwc-temenos-primary);
+  }
+  :root .table-header,
+:root div.header {
+    background-color: var(--uwc-grey-lightest);
+  }
+}
+* {
+  /*firefox scrollbar settings */
+  scrollbar-width: thin;
+  scrollbar-color: var(--uwc-scrollbar-color);
+}
+
+/*webkit scrollbar settings */
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--uwc-scrollbar-color);
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  height: 60px;
+}
